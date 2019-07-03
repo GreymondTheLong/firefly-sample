@@ -1,7 +1,14 @@
 // Define your variable overrides here
-// $enable-shadows: true;
-// $enable-gradients: true;
+// $body-color: #111;
+$body-bg: rgb(213, 228, 232);
+$btn-border-radius: 2rem;
+$font-family-sans-serif: "Open Sans" -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 // Include Bootstrap and BootstrapVue SCSS files
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
+
+html, 
+body {
+    height: 100%;
+}
