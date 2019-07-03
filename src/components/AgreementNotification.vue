@@ -5,12 +5,20 @@
       Before you get carried away, do you agree to us collection anonimized statistics about your usage of our app?
     </p>
     <div>
-      <b-btn variant="outline-info" class="mr-1">
+      <b-btn
+        variant="outline-info"
+        class="mr-1"
+        @click="$emit('disagree')"
+      >
         <close-icon /> Disagree
       </b-btn>
 
-      <b-btn variant="info" class="ml-1">
-        <check-icon/> I agree
+      <b-btn
+        variant="info"
+        class="ml-1"
+        @click="$emit('agree')"
+      >
+        <check-icon /> I agree
       </b-btn>
     </div>
   </div>

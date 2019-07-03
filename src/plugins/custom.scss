@@ -7,8 +7,15 @@ $font-family-sans-serif: "Open Sans" -apple-system, BlinkMacSystemFont, "Segoe U
 // Include Bootstrap and BootstrapVue SCSS files
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
+@import "~bootstrap/scss/mixins/_breakpoints.scss";
 
 html, 
 body {
     height: 100%;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 5px 0px grey;
+    -moz-box-shadow: 0px 0px 5px 0px grey;
+    box-shadow: 0px 0px 5px 0px grey;
 }

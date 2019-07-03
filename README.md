@@ -1,5 +1,8 @@
 # firefly-sample
 
+Simple firefly sample project by Raymond Murray. 
+Vue project built using @vue/cli v3
+
 ## Project setup
 ```
 npm install

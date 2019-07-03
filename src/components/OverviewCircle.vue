@@ -2,13 +2,13 @@
   <div class="h-100">
     <div
       :class="[
-        'circle p-4 m-2 text-white h-100',
+        'circle p-4 m-2 text-white h-100 shadow d-flex justify-content-between align-items-center',
         thirtyDayTotal <= 0 ? 'bg-danger' : 'bg-success'
       ]">
-      <div class="circle-inner h-100">
+      <div class="circle-inner">
         <div class="mx-auto my-auto">
           <h3>{{total.toLocaleString()}}</h3>
-          <small class="smaller">
+          <small class="">
             <arrow-down-icon
               v-if="thirtyDayTotal <= 0"
             />
@@ -44,13 +44,13 @@ export default {
 .circle {
   border-radius: 50%;
   border: 3px solid white;
-
-  -webkit-box-shadow: 0px 0px 5px 0px grey;
-  -moz-box-shadow: 0px 0px 5px 0px grey;
-  box-shadow: 0px 0px 5px 0px grey;
+  min-width: 10rem;
+  max-width: 10rem;
+  min-height: 10rem;
+  max-height: 10rem;
 
   .smaller {
-    font-size: 50%;
+    font-size: 60%;
   }
   // .circle-inner {
   //   box-shadow: 0 4px 2px -2px gray;
