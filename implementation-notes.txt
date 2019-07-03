@@ -1,0 +1,17 @@
+Development Notes:
+
+- Have only implemented what was on the design
+- Data is basic and stored in components. Final app will store them in vuex
+- Tabs for songs and Moods are disabled
+- Most components need work
+
+Design Notes:
+- Missed out some design due to time
+  - Menu font colours aren't right
+  - Menu font weight isn't right
+  - Overview circles need more time before final implementation
+  - Menu items overflow menu column on smaller screens
+    - Needs an update to menu to get working properly. Remove .w-100 and use something more flexable
+  - Menu shouldn't be part of screen scrolling
+    - Currently it fits screen size, which it shouldn't do
+  - Unclear on top navbar when agreement is dismissed. Needs design consultation
