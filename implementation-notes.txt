@@ -4,6 +4,7 @@ Development Notes:
 - Data is basic and stored in components. Final app will store them in vuex
 - Tabs for songs and Moods are disabled
 - Most components need work
+- Missed order by select for table
 
 Design Notes:
 - Missed out some design due to time
